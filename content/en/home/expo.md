@@ -1,0 +1,55 @@
++++
+# An Expo section created with the Portfolio widget.
+widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 50  # Order that this section will appear.
+
+title = "Expo"
+subtitle = "How people use Academic to design beautiful websites 😍"
+
+[content]
+  # Page type to display. E.g. project.
+  page_type = "expo"
+  
+  # Filter toolbar (optional).
+  # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
+  # To show all items, set `tag` to "*".
+  # To filter by a specific tag, set `tag` to an existing tag name.
+  # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
+  
+  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
+  filter_default = 0
+  
+  [[content.filter_button]]
+    name = "All"
+    tag = "*"
+  
+  [[content.filter_button]]
+    name = "Personal"
+    tag = "Personal"
+  
+  [[content.filter_button]]
+    name = "Research Group"
+    tag = "Research Group"
+  
+  [[content.filter_button]]
+    name = "Project/Organization"
+    tag = "Project"
+
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "2"
+
+  # Toggle between the various page layout types.
+  #   1 = List
+  #   3 = Card
+  #   5 = Showcase
+  view = 3
+
+  # For Showcase view, flip alternate rows?
+  flip_alt_rows = false
++++
+
+Did you create a beautiful website with Academic too? **Tell us about it!** 🤗 <span class="ml-3">
+<a class="btn btn-primary" style="font-size: 1rem; margin-bottom: 1rem;" href="https://twitter.com/intent/tweet?text=I'm creating a beautiful website from Markdown using the awesome Academic framework by %40GeorgeCushen!&amp;hashtags=MadeWithAcademic&amp;url=https://sourcethemes.com" target="_blank"><i class="fab fa-twitter pr-1"></i>#MadeWithAcademic</a></span>
