@@ -1,0 +1,44 @@
+# include <iostream>
+using namespace std ;
+struct person ;
+{
+int sex ;
+int males ;
+int female ;
+};
+typedef struct person p;
+int main ()
+{
+int size=0
+cout <<"how many employee do you want to insert?" <<endl;
+cin>> size ;
+P employee [size] ;
+for ( int=0 ; i<size ;  i++)
+{
+cout <<"\t1.male\t2.female"<<endl;
+cin>> employee[i].sex
+if ( employee[i].sex==1 )
+{
+employee[i].male ++ ;
+}
+else
+{
+employee[i].females++;
+}
+cout <<"\n\n****************\n\n" ;
+}
+for (int i=0 ; i<size ; i++)
+{
+cout<<"Male Empolyee :=" "<< employee[i].males <<endl;
+cout<<"Female Employee : "<< employee[i].female <,endl;
+}
+system ("pause");
+return 0 ;
+}
+
+
+
+
+
+
+
